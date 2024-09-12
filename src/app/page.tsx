@@ -143,9 +143,7 @@ export default function Page() {
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
-                  links={project.links}
+                 
                 />
               </BlurFade>
             ))}
@@ -193,7 +191,7 @@ export default function Page() {
               name="message"
               placeholder="Enter your message"
               required
-              rows="8" 
+              rows="8"
               className="border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500"
             ></textarea>
           </div>
